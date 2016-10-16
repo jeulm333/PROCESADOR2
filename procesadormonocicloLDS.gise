@@ -98,6 +98,7 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sumador_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="sumador_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sumador_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_MUX_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_SEU_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_Sumador_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_alu_beh.prj"/>
@@ -127,15 +128,17 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476656157" xil_pn:in_ck="7836975840698687659" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476656157">
+    <transform xil_pn:end_ts="1476657619" xil_pn:in_ck="-4228040282921460866" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476657619">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MUX.vhd"/>
       <outfile xil_pn:name="SEU.vhd"/>
       <outfile xil_pn:name="alu.vhd"/>
       <outfile xil_pn:name="memoriaInstrucciones.vhd"/>
       <outfile xil_pn:name="nPC.vhd"/>
       <outfile xil_pn:name="registerFile.vhd"/>
       <outfile xil_pn:name="sumador.vhd"/>
+      <outfile xil_pn:name="test_MUX.vhd"/>
       <outfile xil_pn:name="test_SEU.vhd"/>
       <outfile xil_pn:name="test_alu.vhd"/>
       <outfile xil_pn:name="test_memoriaInstrucciones.vhd"/>
@@ -145,12 +148,12 @@
       <outfile xil_pn:name="test_unidadControl.vhd"/>
       <outfile xil_pn:name="unidadControl.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1476649027" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8580792116147661513" xil_pn:start_ts="1476649027">
+    <transform xil_pn:end_ts="1476657518" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1089223666477432642" xil_pn:start_ts="1476657518">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1476649027" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2131369561890896633" xil_pn:start_ts="1476649027">
+    <transform xil_pn:end_ts="1476657518" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5721868631465702972" xil_pn:start_ts="1476657518">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>

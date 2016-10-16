@@ -4,35 +4,32 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Parameter xsthdpdir set to C:/Users/usuario pc/Desktop/procesador2/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/usuario pc/Desktop/procesador2/mux.vhd" in Library work.
+Compiling vhdl file "C:/Users/usuario pc/Desktop/procesador2/MUX.vhd" in Library work.
 Entity <mux> compiled.
-ERROR:HDLParsers:3312 - "C:/Users/usuario pc/Desktop/procesador2/mux.vhd" Line 42. Undefined symbol 'i'.
-ERROR:HDLParsers:1209 - "C:/Users/usuario pc/Desktop/procesador2/mux.vhd" Line 42. i: Undefined symbol (last report in this block)
-ERROR:HDLParsers:808 - "C:/Users/usuario pc/Desktop/procesador2/mux.vhd" Line 44. = can not have such operands in this context.
-ERROR:HDLParsers:808 - "C:/Users/usuario pc/Desktop/procesador2/mux.vhd" Line 47. = can not have such operands in this context.
+Entity <MUX> (Architecture <Behavioral>) compiled.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.33 secs
+Total CPU time to Xst completion: 0.28 secs
  
 --> 
 
-Total memory usage is 207600 kilobytes
+Total memory usage is 207472 kilobytes
 
-Number of errors   :    4 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
